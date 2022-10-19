@@ -5,3 +5,9 @@ React files are send once but API will hit many times by react files and user!
 React application is static files which can be easily transferred from server to client
 
 But API's are hit multiple and many times so we need to put in strong server , hence we put nodejs files and api part entirely different from React app.
+
+How jwt token works nd what it is! -> JWT token is method of encryption/dcryption jisme 3 parts hote hai headers.payload.signature
+Headers - Info about the encryption/decryption technique 
+Payload - Actual data which is transferred
+Signature - Which we add from our side
+Then this jwt Token is hashed and send over the network!
